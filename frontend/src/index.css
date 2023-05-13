@@ -17,3 +17,9 @@
     --color-nvdb: 224 21% 14%;
   }
 }
+
+@layer components {
+  .desktop-bg {
+    @apply w-[36rem] rounded-xl h-full p-4 shadow-sm bg-nwhite;
+  }
+}
