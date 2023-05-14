@@ -10,7 +10,7 @@ import chess from "./images/image-chess.webp";
 function App() {
   return (
     <div className="flex justify-center items-center w-screen h-screen py-2 bg-nvlgb font-main">
-      <div className="w-screen h-screen bg-nwhite p-4 md:desktop-bg">
+      <div className="w-screen h-screen bg-nwhite p-4 overflow-x-hidden md:desktop-bg">
         {/* The Navbar */}
         <div className="flex justify-between items-center">
           <div className="flex justify-center items-center gap-4">
@@ -25,7 +25,7 @@ function App() {
         </div>
         <div className="flex flex-col gap-2 max-w-full h-auto mt-5 ">
           {/* First Notification */}
-          <div className="flex justify-center items-start gap-3 w-full h-auto p-3 bg-nvlgb shadow-sm rounded-sm">
+          <div className="flex justify-center items-start gap-3 md:truncate w-full h-auto p-3 bg-nvlgb shadow-sm rounded-sm">
             <img src={p1} alt="mark" className="w-10 h-10" />
             <div className="flex flex-col flex-1">
               <div className="text-sm text-ngb after:inline-block after:w-2 after:h-2 after:ml-1 after:bg-pred after:rounded-full">
